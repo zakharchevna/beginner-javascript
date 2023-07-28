@@ -1,4 +1,7 @@
 {
+  "eslintConfig": {
+    "extends": ["wesbos"]
+  },
   "name": "beginner-javascript",
   "version": "1.0.0",
   "description": "Starter Files and Solutions for the BeginnerJavaScript.com Course",
@@ -12,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/wesbos/beginner-javascript/issues"
   },
-  "homepage": "https://github.com/wesbos/beginner-javascript#readme"
+  "homepage": "https://github.com/wesbos/beginner-javascript#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "eslint-config-wesbos": "^3.2.3"
+  }
 }
