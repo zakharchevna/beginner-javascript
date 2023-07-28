@@ -1,6 +1,8 @@
 {
   "eslintConfig": {
-    "extends": ["wesbos"]
+    "extends": [
+      "wesbos"
+    ]
   },
   "name": "beginner-javascript",
   "version": "1.0.0",
@@ -22,5 +24,11 @@
   "keywords": [],
   "dependencies": {
     "eslint-config-wesbos": "^3.2.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint": "^8.46.0",
+    "eslint-plugin-react": "^7.33.0"
   }
 }
